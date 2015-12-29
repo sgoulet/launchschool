@@ -1,4 +1,2 @@
 # README #
-This is the readme.md file.
-
-This is a test of the readme file.
+This repository is for launch school exercises and documentation.
