@@ -2,4 +2,4 @@
 
 #arr = [["test", "hello", "world"],["example", "mem"]]
 
-#You would have to execute an 'arr.last.first'.
+#You would have to execute 'arr.last.first'.
