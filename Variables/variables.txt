@@ -1,1 +1,0 @@
-This dir has been created for variables exercises' solutions.
