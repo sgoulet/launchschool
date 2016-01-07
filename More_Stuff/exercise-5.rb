@@ -9,3 +9,5 @@
 
 #  block.rb1:in `execute': wrong number of arguments (0 for 1) (ArgumentError)
 #  from test.rb:5:in `<main>'
+
+#  Because we need the "&" symbol in line 2, prior to the block in "(block)".  The "&" allows the bock to be passed as a parameter.
