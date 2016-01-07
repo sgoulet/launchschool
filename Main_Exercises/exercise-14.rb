@@ -4,6 +4,18 @@
 
 #  Note that this exercise is only concerned with dealing with 1 entry in the contacts hash, like this:
 
-#  contact_data = ["joe@email.com", "123 Main st.", "555-123-4567"]
-#  contacts = {"Joe Smith" => {}}
+contact_data = ["joe@email.com", "123 Main st.", "555-123-4567"]
+contacts = {"Joe Smith" => {}}
 
+#  As a bonus, see if you can figure out how to make it work with multiple entries in the contacts hash.
+
+#SOLUTION
+contact_data = ["joe@email.com", "123 Main st.", "555-123-4567"]
+contacts = {"Joe Smith" => {}}
+fields = [:email, :address, :phone]
+
+contacts.each do |name, hash|
+  fields.each do |field|
+    hash[field] = contact_data.shift
+  end
+end
