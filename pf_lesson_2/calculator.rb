@@ -29,5 +29,7 @@ else
   result = number1.to_f() / number2.to_f()
 end
 
+Kernel.puts ("The result is #{result}.")
+
 #  Kernel.puts(number1.inspect())
 #  Kernel.puts("the number is: " + number1 + "!")
